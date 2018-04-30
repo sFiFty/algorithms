@@ -29,12 +29,6 @@ Array.prototype.quickSort = function() {
   return quickSort(this)
 }
 
-console.time("quickSort")
-const newArray = array.quickSort()
-console.log(newArray);
-console.timeEnd("quickSort")
 
-// console.time("a")
-// array.sort((a, b) => a - b)
-// console.log('js sort function', array);
-// console.timeEnd("a")
+const newArray = array.quickSort()
+console.log(newArray)
